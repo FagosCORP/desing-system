@@ -53,9 +53,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// ../../node_modules/react/cjs/react.production.min.js
+// ../node_modules/react/cjs/react.production.min.js
 var require_react_production_min = __commonJS({
-  "../../node_modules/react/cjs/react.production.min.js"(exports) {
+  "../node_modules/react/cjs/react.production.min.js"(exports) {
     "use strict";
     var l = Symbol.for("react.element");
     var n = Symbol.for("react.portal");
@@ -350,9 +350,9 @@ var require_react_production_min = __commonJS({
   }
 });
 
-// ../../node_modules/react/cjs/react.development.js
+// ../node_modules/react/cjs/react.development.js
 var require_react_development = __commonJS({
-  "../../node_modules/react/cjs/react.development.js"(exports, module) {
+  "../node_modules/react/cjs/react.development.js"(exports, module) {
     "use strict";
     if (process.env.NODE_ENV !== "production") {
       (function() {
@@ -2223,9 +2223,9 @@ var require_react_development = __commonJS({
   }
 });
 
-// ../../node_modules/react/index.js
+// ../node_modules/react/index.js
 var require_react = __commonJS({
-  "../../node_modules/react/index.js"(exports, module) {
+  "../node_modules/react/index.js"(exports, module) {
     "use strict";
     if (process.env.NODE_ENV === "production") {
       module.exports = require_react_production_min();
