@@ -20,9 +20,8 @@
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "build": "storybook build",
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.2",
