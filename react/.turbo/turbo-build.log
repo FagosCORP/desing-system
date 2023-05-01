@@ -1,0 +1,77 @@
+
+> @pacote-curso-ui/react@1.0.0 build
+> tsup src/index.tsx --format esm,cjs --dts
+
+CLI Building entry: src/index.tsx
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.7.0
+CLI Target: es6
+ESM Build start
+CJS Build start
+
+ WARN  [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate key "compilerOptions" in object literal[0m [duplicate-object-key]
+
+    tsconfig.json:5:4:
+[37m      5 │     [32m"compilerOptions"[37m: {
+        ╵     [32m~~~~~~~~~~~~~~~~~[0m
+
+  The original key "compilerOptions" is here:
+
+    tsconfig.json:2:4:
+[37m      2 │     [32m"compilerOptions"[37m: {
+        ╵     [32m~~~~~~~~~~~~~~~~~[0m
+
+
+
+
+ WARN  [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate key "compilerOptions" in object literal[0m [duplicate-object-key]
+
+    tsconfig.json:8:4:
+[37m      8 │     [32m"compilerOptions"[37m: {
+        ╵     [32m~~~~~~~~~~~~~~~~~[0m
+
+  The original key "compilerOptions" is here:
+
+    tsconfig.json:2:4:
+[37m      2 │     [32m"compilerOptions"[37m: {
+        ╵     [32m~~~~~~~~~~~~~~~~~[0m
+
+
+
+
+ WARN  [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate key "compilerOptions" in object literal[0m [duplicate-object-key]
+
+    tsconfig.json:5:4:
+[37m      5 │     [32m"compilerOptions"[37m: {
+        ╵     [32m~~~~~~~~~~~~~~~~~[0m
+
+  The original key "compilerOptions" is here:
+
+    tsconfig.json:2:4:
+[37m      2 │     [32m"compilerOptions"[37m: {
+        ╵     [32m~~~~~~~~~~~~~~~~~[0m
+
+
+
+
+ WARN  [33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDuplicate key "compilerOptions" in object literal[0m [duplicate-object-key]
+
+    tsconfig.json:8:4:
+[37m      8 │     [32m"compilerOptions"[37m: {
+        ╵     [32m~~~~~~~~~~~~~~~~~[0m
+
+  The original key "compilerOptions" is here:
+
+    tsconfig.json:2:4:
+[37m      2 │     [32m"compilerOptions"[37m: {
+        ╵     [32m~~~~~~~~~~~~~~~~~[0m
+
+
+
+ESM dist/index.mjs 96.62 KB
+ESM ⚡️ Build success in 74ms
+CJS dist/index.js 97.32 KB
+CJS ⚡️ Build success in 73ms
+DTS Build start
+DTS ⚡️ Build success in 3022ms
+DTS dist/index.d.ts 43.15 KB

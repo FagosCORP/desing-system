@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "jsx": "react"
+    },
+    "compilerOptions": {
+      "jsx": "react"
+    },
+    "compilerOptions": {
+      "jsx": "react"
+    },
+    "extends": "@pacote-curso-ui/ts-config/react.json",
+    "include": ["src"]
+}    

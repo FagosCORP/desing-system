@@ -1,0 +1,3 @@
+{
+        "extends":"@pacote-curso-ui/eslint-config"
+}
